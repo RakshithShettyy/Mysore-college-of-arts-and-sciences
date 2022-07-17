@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+header{
+    width: 100%;
+    height: 30%;
+    background-color: #435560;
+}
+.brand{
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+
+}
+.brandHeading{
+    color: yellow;
+    font-size: 30px
+}
+.subBrandHeading{
+    color: #c8c6a7;
+    font-size: 17px;
+}
+.links{
+text-align: center;
+background-color:#6e7c7c ;
+padding: 20px;
+}
+.links ul li {
+    display: inline;
+    padding: 20px;
+}
+.links ul li a{
+    text-decoration: none;
+    color: yellow;
+}
+.container{
+    background-image: url(../images/1209535.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+    height: 100vh;
+    padding-top: 30px;
+    
+    
+   
+    
+}
+.college-news{
+    width: 60%;
+    background-color: wheat;
+    margin: 10px auto 40px auto;
+    text-align: center;
+    
+}
+.student-news{
+    display: block;
+    width: 60%;
+    background-color: wheat;
+    margin: auto;
+    text-align: center;
+   
+}
+.table-content{
+   margin: auto;
+   padding: 30px;
+   width: 100%;
+   
+}
+.table-content tr td{
+padding: 20px;
+border-bottom: 1px solid black;
+}
+.table-content tbody tr:nth-of-type(even){
+    background-color: rgba(222, 213, 189, 0.5);
+}
+.footer{
+    text-align: center;
+    background-color:#6e7c7c ;
+    color: white;
+    line-height: 1.5;
+    padding: 20px 10px 30px 10px ;
+}
+.footer h4{
+    color: yellow;
+}
+.footer p{
+    color: #D3D3D3;
+}

@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+header{
+    width: 100%;
+    height: 30%;
+    background-color: #435560;
+}
+.brand{
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+
+}
+.brandHeading{
+    color: yellow;
+    font-size: 30px
+}
+.subBrandHeading{
+    color: #c8c6a7;
+    font-size: 17px;
+}
+.links{
+text-align: center;
+background-color:#6e7c7c ;
+padding: 20px;
+}
+.links ul li {
+    display: inline;
+    padding: 20px;
+}
+.links ul li a{
+    text-decoration: none;
+    color: yellow;
+}
+
+/* other */
+.container{
+    background-image: url(../images/1209535.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+    height: 100vh;
+    padding-top: 30px;
+    
+}
+
+
+
+
+
+.departments{
+    width: 100%;
+}
+.dept-desc{
+    width: 60%;
+    margin: 10px auto  10px auto;
+    padding: 30px;
+    line-height: 1.2;
+    border-radius: 20px;
+    background-color: rgba(222, 213, 189, 0.9);
+}
+.footer{
+    text-align: center;
+    background-color:#6e7c7c ;
+    color: white;
+    line-height: 1.5;
+    padding: 20px 10px 30px 10px ;
+   
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.footer h4{
+    color: yellow;
+}
+.footer p{
+    color: #D3D3D3;
+}
+
+
